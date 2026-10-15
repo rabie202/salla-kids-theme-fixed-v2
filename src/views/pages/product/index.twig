@@ -1,0 +1,5 @@
+{% extends "layouts.master" %}
+{% block title %}{{ category.name|default(page.title|default('المنتجات')) }} | {{ store.name|default('كيدز ستايل') }}{% endblock %}
+{% block content %}
+<div class="container page-shell"><salla-breadcrumb></salla-breadcrumb><div class="page-heading"><h1>{{ category.name|default(page.title|default('المنتجات')) }}</h1>{% if category.description %}<p>{{ category.description|raw }}</p>{% endif %}</div><salla-products-list source="{{ page.slug }}" source-value="{{ page.id }}" {% if filters %}filters-Results{% endif %}></salla-products-list></div>
+{% endblock %}

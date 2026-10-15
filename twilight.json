@@ -1,0 +1,75 @@
+{
+  "version": "1.0.1",
+  "name": {
+    "ar": "كيدز ستايل",
+    "en": "Kids Style"
+  },
+  "theme_name": "Kids Style",
+  "description": {
+    "ar": "قالب ملابس أطفال عصري يدعم RTL ومصمم للجوال أولاً",
+    "en": "A modern RTL-first, mobile-first kids fashion theme"
+  },
+  "repository": "https://github.com/rabie202/salla-kids-theme",
+  "repo_url": "https://github.com/rabie202/salla-kids-theme",
+  "author_email": "support@kids-style.store",
+  "support_url": "https://github.com/rabie202/salla-kids-theme",
+  "features": [
+    "fonts",
+    "color",
+    "breadcrumb",
+    "component-featured-products",
+    "component-fixed-banner",
+    "component-fixed-products",
+    "component-products-slider",
+    "component-photos-slider",
+    "component-parallax-background",
+    "component-testimonials",
+    "component-square-photos",
+    "component-store-features",
+    "component-youtube",
+    "filters"
+  ],
+  "settings": [
+    {
+      "type": "boolean",
+      "id": "show_whatsapp_button",
+      "label": "إظهار زر واتساب",
+      "format": "switch",
+      "value": true,
+      "selected": true
+    },
+    {
+      "type": "boolean",
+      "id": "show_sticky_cart",
+      "label": "شريط شراء ثابت على الجوال",
+      "format": "switch",
+      "value": true,
+      "selected": true
+    },
+    {
+      "type": "boolean",
+      "id": "show_seasonal_mode",
+      "label": "وضع موسمي (رمضان، عيد)",
+      "format": "switch",
+      "value": false,
+      "selected": false
+    },
+    {
+      "type": "boolean",
+      "id": "show_testimonials",
+      "label": "إظهار آراء العملاء",
+      "format": "switch",
+      "value": true,
+      "selected": true
+    },
+    {
+      "type": "boolean",
+      "id": "show_trust_badges",
+      "label": "شارات الثقة",
+      "format": "switch",
+      "value": true,
+      "selected": true
+    }
+  ],
+  "components": []
+}

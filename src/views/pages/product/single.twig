@@ -1,0 +1,5 @@
+{% extends "layouts.master" %}
+{% block title %}{{ product.title }} | {{ store.name|default('كيدز ستايل') }}{% endblock %}
+{% block content %}
+<div class="container page-shell"><salla-breadcrumb></salla-breadcrumb><section class="product-layout"><div class="product-gallery"><img src="{{ product.image.url|default(product.featured_image) }}" alt="{{ product.title }}"></div><div class="product-details"><h1>{{ product.title }}</h1><div class="product-price">{{ product.price }}</div><div class="product-description">{{ product.description|raw }}</div><salla-add-product-button product-id="{{ product.id }}" width="wide" fill="solid" text="أضيفي للسلة"></salla-add-product-button></div></section><section class="related-section"><h2>منتجات قد تعجبك</h2><salla-products-slider source="related" source-value="{{ product.id }}" limit="4"></salla-products-slider></section></div>
+{% endblock %}
