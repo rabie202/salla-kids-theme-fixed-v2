@@ -35,7 +35,6 @@
       "id": "show_whatsapp_button",
       "label": "إظهار زر واتساب",
       "format": "switch",
-      "value": true,
       "selected": true
     },
     {
@@ -43,7 +42,6 @@
       "id": "show_sticky_cart",
       "label": "شريط شراء ثابت على الجوال",
       "format": "switch",
-      "value": true,
       "selected": true
     },
     {
@@ -51,7 +49,6 @@
       "id": "show_seasonal_mode",
       "label": "وضع موسمي (رمضان، عيد)",
       "format": "switch",
-      "value": false,
       "selected": false
     },
     {
@@ -59,7 +56,6 @@
       "id": "show_testimonials",
       "label": "إظهار آراء العملاء",
       "format": "switch",
-      "value": true,
       "selected": true
     },
     {
@@ -67,7 +63,6 @@
       "id": "show_trust_badges",
       "label": "شارات الثقة",
       "format": "switch",
-      "value": true,
       "selected": true
     }
   ],
